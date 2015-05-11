@@ -1,5 +1,7 @@
 set numerichints
 
+map <C-i> :editWithVim
+
 site 'https://williamhill.jira.com/secure/RapidBoard.jspa?rapidView=429*' {
   call :pintab
 }
